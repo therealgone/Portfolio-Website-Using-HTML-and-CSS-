@@ -220,9 +220,17 @@ header .icon {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .content h1{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     text-align: center;
     color: pink;
     font-size: 6rem;
@@ -246,6 +254,7 @@ header .icon {
     width: 400px;
     height: 200px;
     justify-content: center;
+    align-content: center;
     border: #ff0073  1.5px solid;
     border-radius: 1rem;
     padding: 4rem;
@@ -258,12 +267,18 @@ header .icon {
     
 }
 .skills h3{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-size: 3rem;
     font-weight: 600;
     
 }
 
 .sk h3{
+    align-content: center;
+    justify-content: center;
     align-items: center;
     text-align: center;
     color: pink;
