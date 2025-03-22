@@ -33,7 +33,7 @@ body{
     
 }
 
-header{
+header a{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -41,36 +41,46 @@ header{
     
 
 }
+.nav{
+display: flex;
+flex-direction: row;
+justify-content: end;
+gap: 2rem;
+padding: 10px;
+margin-top:-60px;
+font-size: 25px;
 
 
-nav ul li{
-    display: inline-flex;
-    
-    
-   
+
+
+
 }
 
-nav ul li a{
+
+.nav a{
     color: pink;
-    font-weight: 600;
     border: 2px solid #ff0073;
-    border-radius: 30px;
+    border-radius: 50px;
+    text-shadow: 0 0 2px #ff0073, 0 0 5px #ff0073, 0 0 10px #ff0073;
     padding: 10px;
-    
-    
-    
-    text-decoration: none;
-    justify-content: space-between;
-    margin-right: 30px;
-    font-size: 3rem;
-    transition: 0.5s ease;
+
+    margin-right: 100px;
+
 }
- nav ul li a:hover
+
+
+ .nav a:hover
 {
-    color: #fa0000;
-    transform: scale(1.2) translateY(-0.2rem);
     background-color: white;
+    color: red;
     box-shadow: 0 0 25px white;
+    transform: scale(1.2) translate3d(1.2, 1.2, 1.2);
+    text-shadow: none;
+    border: 2px solid white ;
+    border-radius: 50px;
+    
+    
+    
     
     
     
@@ -81,7 +91,9 @@ nav ul li a{
 header .icon {
     font-size: 4rem;
     color: rgb(252, 252, 252);
+    text-shadow: 0 0 5px white;
     font-weight: 600;
+    
     
     margin-left: 50px;
 
